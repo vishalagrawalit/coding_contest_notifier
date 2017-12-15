@@ -16,13 +16,13 @@ Dec/16/2017 14:35
 
 02:00
 
-Before start 28:50:53
+Before start 26:05:55
 
 Register »
 
- x1096
+ x1514
 
-Until closing 28:45:53
+Until closing 26:00:55
 
 *has extra registration
 
@@ -32,11 +32,11 @@ Dec/17/2017 09:35
 
 02:00
 
-Before start 47:50:52
+Before start 45:05:55
 
 Before registration
 
-36:15:52
+33:30:55
 
 Codeforces Round #453 (Div. 1)    
 
