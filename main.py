@@ -15,4 +15,4 @@ import time
 
 fetch_codechef()
 time.sleep(10)
-fetch_codeforces()
+fetch_codeforces(0)
