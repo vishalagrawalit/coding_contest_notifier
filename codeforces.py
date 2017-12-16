@@ -9,7 +9,7 @@ import datetime
 flag = 0
 
 
-def fetch_codeforces():
+def fetch_codeforces(flag):
     now = datetime.datetime.now()
 
     month = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -31,7 +31,6 @@ def fetch_codeforces():
         file.write(link.text.encode("UTF-8"))
 
     file.close()
-    print("Yes")
 
     for line in fileinput.FileInput("codeforcesdata.txt", inplace=1):
         if line.rstrip():
@@ -40,24 +39,23 @@ def fetch_codeforces():
     contest = []
     with open('codeforcesdata.txt', 'r+') as file:
         res = ""
+        count = 0
         for line in file:
-            if len(line) == 18 and line[3] == "/" and line[6] == "/":
-                print(res)
-                res += "Start Time: " + str(line)
-                ExpectedDate = convertDate(str(line))
-                ExpectedDate = datetime.datetime.strptime(ExpectedDate, "%d/%m/%Y %H:%M:%S")
-                if now < ExpectedDate:
-                    contest.append(res)
-                    res = ""
-                else:
+            if "Name" in line:
+                count+=1
+                if count==2:
                     break
+            if len(line) == 18 and line[3] == "/" and line[6] == "/":
+                res += "Start Time: " + str(line)
+                contest.append(res)
+                res = ""
             elif line == "\n":
                 res += ""
             elif len(line) == 1:
                 res += str(line)
             else:
                 res = str(line)
-
+    print contest
     ICON_PATH = "/home/vish/Downloads/index.png"
     notify2.init("Contest Notifier")
     # create Notification object
@@ -85,4 +83,4 @@ def fetch_codeforces():
 
 if __name__ == "__main__":
     flag = 1
-    fetch_codeforces()
+    fetch_codeforces(flag)
