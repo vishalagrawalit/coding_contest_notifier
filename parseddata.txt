@@ -14,21 +14,21 @@ ZCO Practice Contest
 
 05 Jan 2018  00:00:00
 
-ICOP1805
-
-ICO 2018 Preparatory Series - Contest 5
-
-15 Dec 2017  20:00:00
-
-15 Dec 2017  23:00:00
-
 PROC2017
 
-Programming Cup - SÃ£o Paulo Edition
+Programming Cup- Sao Paulo Edition
 
 16 Dec 2017  20:30:00
 
 17 Dec 2017  02:30:00
+
+SOPC2017
+
+Shaastra Online Programming Contest 2018
+
+23 Dec 2017  20:30:00
+
+23 Dec 2017  23:00:00
 
 COOK89
 
@@ -37,6 +37,14 @@ December Cook-Off 2017
 24 Dec 2017  21:30:00
 
 25 Dec 2017  00:00:00
+
+ICOP1805
+
+ICO 2018 Preparatory Series - Contest 5
+
+15 Dec 2017  20:00:00
+
+15 Dec 2017  23:00:00
 
 DEC17
 
@@ -1046,17 +1054,17 @@ Codester veteran
 
 23 Oct 2016  13:00:00
 
-IFCAMR16
+ACMIND16
 
-ICPC For Schools, Amrita University
+ACM-ICPC India Regionals, Online Preliminary Round 2016
 
 22 Oct 2016  19:00:00
 
 22 Oct 2016  22:00:00
 
-ACMIND16
+IFCAMR16
 
-ACM-ICPC India Regionals, Online Preliminary Round 2016
+ICPC For Schools, Amrita University
 
 22 Oct 2016  19:00:00
 
@@ -2710,19 +2718,19 @@ June Lunchtime 2015
 
 28 Jun 2015  14:00:00
 
-SD15FLMR
-
-SnackDown 2015 Final Mirror
-
-27 Jun 2015  14:00:00
-
-27 Jun 2015  18:00:00
-
 SNCK15FL
 
 CodeChef Snackdown 2015 Finale 
 
 27 Jun 2015  13:00:00
+
+27 Jun 2015  18:00:00
+
+SD15FLMR
+
+SnackDown 2015 Final Mirror
+
+27 Jun 2015  14:00:00
 
 27 Jun 2015  18:00:00
 
@@ -3102,19 +3110,19 @@ Codephrenia 2015
 
 12 Mar 2015  00:00:00
 
-MTHX2015
-
-MathRix OPC 2015
-
-10 Mar 2015  21:00:00
-
-10 Mar 2015  22:00:00
-
 COTG2015
 
 Code On the Go 2015
 
 09 Mar 2015  21:00:00
+
+10 Mar 2015  22:00:00
+
+MTHX2015
+
+MathRix OPC 2015
+
+10 Mar 2015  21:00:00
 
 10 Mar 2015  22:00:00
 
@@ -4574,19 +4582,19 @@ CodeClash 2013
 
 02 Oct 2013  18:00:00
 
-CDWR2013
-
-Code War 2013
-
-27 Sep 2013  15:00:00
-
-29 Sep 2013  15:00:00
-
 CDGF2013
 
 Code Zip 2013
 
 25 Sep 2013  15:00:00
+
+29 Sep 2013  15:00:00
+
+CDWR2013
+
+Code War 2013
+
+27 Sep 2013  15:00:00
 
 29 Sep 2013  15:00:00
 
@@ -6206,7 +6214,7 @@ Codehack 2010
 
 07 Feb 2010  06:00:00
 
-TBS101
+TBS102
 
 Technical Blitzschlag
 
@@ -6214,7 +6222,7 @@ Technical Blitzschlag
 
 01 Feb 2010  00:00:00
 
-TBS102
+TBS101
 
 Technical Blitzschlag
 
